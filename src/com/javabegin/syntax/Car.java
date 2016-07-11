@@ -10,6 +10,14 @@ public class Car {
     }
 
     public void go(){
-        
+
+    }
+
+    public void setI(int i) {
+        this.i = i;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
