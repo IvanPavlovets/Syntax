@@ -5,12 +5,6 @@ public class Car {
     private int i = 0;
     private String name = null;
 
-    private void test(){
-    }
-
-    public void go(){
-    }
-
     public Car() {
     }
 
@@ -19,6 +13,7 @@ public class Car {
         this.name = name;
     }
 
+
     public int getI() {
         return i;
     }
@@ -26,4 +21,18 @@ public class Car {
     public String getName() {
         return name;
     }
+
+    private void test(){
+        i=5;
+    }
+
+    public void go(){
+        int count = 0;
+        count++;
+        System.out.println(i);
+    }
+
+
+
+
 }
