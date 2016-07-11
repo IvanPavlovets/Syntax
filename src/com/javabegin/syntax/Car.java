@@ -32,6 +32,11 @@ public class Car {
         System.out.println(i);
     }
 
+    public void showInfo(){
+        this.getI();
+        this.getName();
+    }
+
 
 
 
