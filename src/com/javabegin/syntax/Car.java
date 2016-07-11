@@ -33,8 +33,7 @@ public class Car {
     }
 
     public void showInfo(){
-        this.getI();
-        this.getName();
+        System.out.println("i = "+this.getI()+" name = "+this.getName());
     }
 
 
