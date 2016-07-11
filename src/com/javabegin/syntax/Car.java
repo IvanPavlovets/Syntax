@@ -10,7 +10,7 @@ public class Car {
 
     public void go(){
     }
-    
+
     public Car() {
     }
 
@@ -19,4 +19,11 @@ public class Car {
         this.name = name;
     }
 
+    public int getI() {
+        return i;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
