@@ -6,10 +6,17 @@ public class Car {
     private String name = null;
 
     private void test(){
-
     }
 
     public void go(){
-        
     }
+    
+    public Car() {
+    }
+
+    public Car(int i, String name) {
+        this.i = i;
+        this.name = name;
+    }
+
 }
