@@ -4,4 +4,12 @@ public class Car {
 
     private int i = 0;
     private String name = null;
+
+    private void test(){
+
+    }
+
+    public void go(){
+        
+    }
 }
