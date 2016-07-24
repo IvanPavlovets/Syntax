@@ -5,6 +5,9 @@ public class Main {
         System.out.println("Hello git");
 
         Car car1 = new Car(1, "Subaru");
+        Main main = new Main();
+
+        main.test1(car1);
         car1.showInfo();
 
 
