@@ -8,6 +8,7 @@ public class Main {
         Main main = new Main();
 
         main.test1(car1);
+        main.test2(car1.getI());
         car1.showInfo();
 
 
@@ -15,5 +16,10 @@ public class Main {
 
     public void test1(Car car){
         car.setName("Toyota");
+    }
+
+    public void test2(int i){
+        i = 6;
+        System.out.println("test2.i = "+i);
     }
 }
