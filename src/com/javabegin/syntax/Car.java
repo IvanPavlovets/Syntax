@@ -44,8 +44,9 @@ public class Car {
 
         Car car = (Car) o;
 
-        return name.equals(car.name);
+        if (!name.equals(car.name)) return false;
 
+        return true;
     }
 
     @Override
